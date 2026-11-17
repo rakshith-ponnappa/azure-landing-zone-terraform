@@ -1,0 +1,15 @@
+landing_zone_subscription_id   = "00000000-0000-0000-0000-000000000000"
+connectivity_subscription_id   = "00000000-0000-0000-0000-000000000000"
+management_group_id            = "/providers/Microsoft.Management/managementGroups/alz-corp"
+workload                       = "app1"
+environment                    = "dev"
+location                       = "uksouth"
+spoke_address_space            = "10.1.0.0/22"
+hub_virtual_network_id         = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-alz-hub-plat-uks-001/providers/Microsoft.Network/virtualNetworks/vnet-alz-hub-plat-uks-001"
+firewall_private_ip            = "10.0.0.4"
+aks_private_dns_zone_id        = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-alz-hub-plat-uks-001/providers/Microsoft.Network/privateDnsZones/privatelink.uksouth.azmk8s.io"
+log_analytics_workspace_id     = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-alz-mgmt-plat-uks-001/providers/Microsoft.OperationalInsights/workspaces/log-alz-mgmt-plat-uks-001"
+app_team_group_object_id       = "00000000-0000-0000-0000-000000000000"
+cluster_admin_group_object_ids = ["00000000-0000-0000-0000-000000000000"]
+monthly_budget                 = 1000
+budget_contact_emails          = ["app1-team@example.com"]

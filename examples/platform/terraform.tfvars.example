@@ -1,0 +1,10 @@
+connectivity_subscription_id = "00000000-0000-0000-0000-000000000000"
+prefix                       = "alz"
+organisation_display_name    = "Example Organisation"
+location                     = "uksouth"
+allowed_locations            = ["uksouth", "ukwest"]
+hub_address_space            = "10.0.0.0/22"
+spoke_address_spaces         = ["10.1.0.0/22"]
+owner                        = "platform-team@example.com"
+cost_center                  = "CC-0000"
+github_repository            = "your-org/azure-landing-zone-terraform"
